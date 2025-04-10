@@ -84,3 +84,13 @@ torchrun --nproc_per_node=4 tools/train.py -c configs/rtdetr/madetr_r50vd_coco.y
 ```
 
 </details>
+
+## Model Weights
+
+Pre-trained model weights for MA-DETR are available for download:
+
+- **MA-DETR-R50VD**:
+  - Download: [Google Drive](https://drive.google.com/file/d/10lG4FdPyZJXIN9CmNwTYU4dItwM_VGjT/view?usp=drive_link)
+  - Size: 726.7 MB
+  - Description: Trained on COCO 2017, achieves 53.5% AP.
+  - 
