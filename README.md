@@ -8,7 +8,7 @@ Transformer-based frameworks are widely adopted in end-to-end object detection f
 
 ## Main Results
 
-![Multi-Scale Information Complementarity](images/Fig1.png)
+![Comparisons with other detectors in terms of computational cost.](images/Fig1.png)
 *Compared with state-of-the-art end-to-end real-time object detectors under equivalent architectures, our MA-DETR achieves superior performance.*
 
 ## Performance
