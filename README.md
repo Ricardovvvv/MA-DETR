@@ -6,11 +6,9 @@ Authors: Ke Wang,Peng Zhou,Bohan Li, Feixiang GaoJianbo Lu
 Transformer-based frameworks are widely adopted in end-to-end object detection for its robust long-range contextual modeling.    However, its quadratic complexity hampers efficient multi-scale feature representation in high-resolution scenarios.    To address this, we propose MA-DETR, a novel architecture that, for the first time, integrates the selective state space model (Mamba) into the Real-Time End-to-End Object Detector framework to enhance feature processing and multi-scale feature fusion within the encoder module.    First, we introduce the Spatial State Aware Vision Mamba (SSAViM) to replace traditional Transformer modules in the encoder.    By incorporating spatial state awareness, multi-scale feature fusion, and spatial decoupling strategies, SSAViM adapts the text-oriented Mamba model to perceive spatial structures, improving spatial alignment and enabling linear-complexity modeling of spatial dependencies.    Second, we propose the MambaFusion module, which combines Mamba’s long-sequence modeling with convolutional local feature extraction.    Through cross-scale contextual feature fusion, it enriches feature representations, enhancing local region perception and improving small object detection accuracy while maintaining efficient global modeling. Furthermore, we propose theMulti-Scale Information Complementarity (MSIC) operation to mutually enhance local detail features and deep semantic representations.  On COCO, MA-DETR achieves 53.5\% AP at 100 FPS (T4 GPU), showcasing real-time potential.
 ##
 
-![alt text](Fig2.png)
-
 ## Results
 
-![Multi-Scale Information Complementarity](images/Fig1.png)
+![Multi-Scale Information Complementarity](images/Fig1.pdf)
 *Diagram of Multi-Scale Information Complementarity. The architecture integrates feature maps of varying scales through the Mamba module for effective cross-scale fusion.*
 
 ## Performance
