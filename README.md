@@ -72,7 +72,7 @@ python tools/train.py -c configs/madetr/madetr_r50vd_coco.yml
 ```shell
 # train on multi-gpu
 export CUDA_VISIBLE_DEVICES=0,1,2,3
-torchrun --nproc_per_node=4 tools/train.py -c configs/rtdetr/madetr_r50vd_coco.yml
+torchrun --nproc_per_node=4 tools/train.py -c configs/madetr/madetr_r50vd_coco.yml
 ```
 
 - Evaluation on Multiple GPUs:
@@ -80,7 +80,7 @@ torchrun --nproc_per_node=4 tools/train.py -c configs/rtdetr/madetr_r50vd_coco.y
 ```shell
 # val on multi-gpu
 export CUDA_VISIBLE_DEVICES=0,1,2,3
-torchrun --nproc_per_node=4 tools/train.py -c configs/rtdetr/madetr_r50vd_coco.yml -r path/to/checkpoint --test-only
+torchrun --nproc_per_node=4 tools/train.py -c configs/madetr/madetr_r50vd_coco.yml -r path/to/checkpoint --test-only
 ```
 
 </details>
