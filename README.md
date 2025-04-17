@@ -51,7 +51,7 @@ path/to/coco/
   train2017/    # train images
   val2017/      # val images
 ```
-- Modify config [`img_folder`, `ann_file`](configs/dataset/coco_detection.yml)
+
 </details>
 
 
